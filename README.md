@@ -49,7 +49,7 @@ create topic
 
 to get topic details
 **kafka-topics.bat --describe --topic firstTopic --bootstrap-server localhost:9092
-**
+
 get list of topics created
 **kafka-topics.bat --list --bootstrap-server localhost:9092
-**
+
