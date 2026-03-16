@@ -38,15 +38,15 @@ from 2.8 (KRaft) onwards, zookeeper is deprecated
 
 start zookeeper
 **zookeeper-server-start.bat zookeeper.properties
-**
+
 start kafka server
 **kafka-server-start.bat server.properties
-**
+
 to create another server, clone server2.properties and add partition details if needed
 
 create topic
 **kafka-topics.bat --create --topic firstTopic --bootstrap-server localhost:9092 --partitions 4 --replication-factor 2
-**
+
 to get topic details
 **kafka-topics.bat --describe --topic firstTopic --bootstrap-server localhost:9092
 **
